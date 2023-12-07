@@ -1,0 +1,45 @@
+
+.calc-container{
+    margin: 0 auto;
+    height: 350px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+} 
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.screen{
+    width: 93.4%;
+    height: 25%;
+    margin-bottom: 10px;
+    background-color: red;
+    color: #fff;
+    font-size: 6vh;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    
+}
+p {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden; /* Скрытие лишнего контента */
+    text-overflow: clip; /* Текст обрезается, если он выходит за границы */
+}
+.digits{
+    margin-right: 10px;
+}
+.key{
+    height: 53px;
+    width: 53px;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+
